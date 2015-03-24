@@ -6,3 +6,5 @@ hackathon-hystix-app.iml
 .gradle/
 .settings/
 /bin/
+hackathon-hystix-app.ipr
+hackathon-hystix-app.iws
