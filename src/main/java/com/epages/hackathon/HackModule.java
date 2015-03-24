@@ -10,5 +10,6 @@ public class HackModule extends AbstractModule {
     protected void configure() {
         Multibinder.newSetBinder(binder(),
                 HandlerDecorator.class).addBinding().toInstance(HandlerDecorator.prepend(new LoggingHandler()));
+        
     }
 }
