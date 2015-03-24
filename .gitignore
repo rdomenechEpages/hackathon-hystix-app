@@ -5,3 +5,4 @@ hackathon-hystix-app.iml
 .project
 .gradle/
 .settings/
+/bin/
