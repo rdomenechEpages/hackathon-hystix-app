@@ -1,3 +1,7 @@
 build/
 .idea/
 hackathon-hystix-app.iml
+.classpath
+.project
+.gradle/
+.settings/
