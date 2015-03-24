@@ -19,8 +19,8 @@ public class HackApp {
                                             .prefix("services", nested -> {
                                                 nested
                                                         //.handler(new LoggingHandler())
-                                                        .handler("a", new HandlerA())
-                                                        .handler("b", new HandlerB());
+                                                        .handler("a", new ParameterizedHandler(new ConfigurableServiceImpl("a")))
+                                                        .handler("b", new ParameterizedHandler(new ConfigurableServiceImpl("b")));
                                             })
                                             .prefix("static", nested -> nested.assets("public/images"))
                                             .handler(context -> context.render("root handler!"))

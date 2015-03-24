@@ -50,6 +50,7 @@ dependencies {
   testCompile "org.spockframework:spock-core:0.7-groovy-2.0"
   testCompile 'junit:junit:4.12'
   compile ratpack.dependency("guice")
+  compile "com.netflix.archaius:archaius-core:0.6.5"
 }
 
 
