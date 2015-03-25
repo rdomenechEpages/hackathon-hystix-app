@@ -57,7 +57,7 @@ public class ConfigurableServiceImpl implements Service {
     private void logCurrentPropertyValues() {
         System.out.println("blocked:" + blocked.get());
         System.out.println("blockedCheckTimeout:" + blockedCheckTimeout.get());
-        System.out.println("averageLatancy:" + averageLatency.get());
+        System.out.println("averageLatency:" + averageLatency.get());
         System.out.println("latencyVariation:" + latencyVariation.get());
     }
 
